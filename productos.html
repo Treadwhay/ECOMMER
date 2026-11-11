@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Productos | SkyHigh Jets</title>
+    <link href="css/estilos.css" rel="stylesheet" type="text/css">
+    <script type="module" src="js/model-viewer.min.js"></script>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo-container">
+            <img src="iconos/logo.png" alt="Logotipo negocio" width="220">
+        </div>
+        <h1>SkyHigh Jets</h1>
+        <h2 class="destacado">Catálogo de Productos</h2>
+        <h4 id="favorito">Viaja con comodidad, seguridad y exclusividad a cualquier destino.</h4>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <main>
+            <section>
+                <article>
+                    <h2>Catálogo de Aeronaves en 3D</h2>
+                    <p>Explora nuestras aeronaves con modelos 3D interactivos en rotación continua. Puedes girarlos, moverlos y hacer zoom con el cursor:</p>
+
+                    <div class="productos-container">
+                        <div class="producto-card">
+                            <model-viewer src="modelos3d/c550.glb" alt="Cessna Citation XLS 3D" auto-rotate rotation-per-second="25deg" camera-controls shadow-intensity="1" touch-action="pan-y" interaction-prompt="none"></model-viewer>
+                            <h3>Cessna Citation XLS+</h3>
+                            <span class="categoria">Jet Ejecutivo Mediano</span>
+                            <p>Capacidad para 9 pasajeros. Modelo 3D interactivo en rotación continua.</p>
+                            <a href="contacto.html" class="btn-cotizar">Cotizar Vuelo</a>
+                        </div>
+
+                        <div class="producto-card">
+                            <model-viewer src="modelos3d/crj2.glb" alt="Bombardier CRJ-200 3D" auto-rotate rotation-per-second="25deg" camera-controls shadow-intensity="1" touch-action="pan-y" interaction-prompt="none"></model-viewer>
+                            <h3>Bombardier CRJ-200</h3>
+                            <span class="categoria">Jet Corporativo Regional</span>
+                            <p>Capacidad para 16 pasajeros. Cabina ejecutiva de alto confort.</p>
+                            <a href="contacto.html" class="btn-cotizar">Cotizar Vuelo</a>
+                        </div>
+
+                        <div class="producto-card">
+                            <model-viewer src="modelos3d/a320.glb" alt="Airbus A320 VIP 3D" auto-rotate rotation-per-second="25deg" camera-controls shadow-intensity="1" touch-action="pan-y" interaction-prompt="none"></model-viewer>
+                            <h3>Airbus A320 VIP</h3>
+                            <span class="categoria">Avión Comercial Corporativo</span>
+                            <p>Capacidad para 30+ pasajeros. Gran alcance y confort de primer nivel.</p>
+                            <a href="contacto.html" class="btn-cotizar">Cotizar Vuelo</a>
+                        </div>
+
+                        <div class="producto-card">
+                            <model-viewer src="modelos3d/boeing.glb" alt="Boeing 747 VIP 3D" auto-rotate rotation-per-second="25deg" camera-controls shadow-intensity="1" touch-action="pan-y" interaction-prompt="none"></model-viewer>
+                            <h3>Boeing 747 VIP</h3>
+                            <span class="categoria">Aeronave de Gran Capacidad</span>
+                            <p>Máxima exclusividad intercontinental para delegaciones y grupos.</p>
+                            <a href="contacto.html" class="btn-cotizar">Cotizar Vuelo</a>
+                        </div>
+
+                        <div class="producto-card">
+                            <model-viewer src="modelos3d/pc12.glb" alt="Pilatus PC-12 3D" auto-rotate rotation-per-second="25deg" camera-controls shadow-intensity="1" touch-action="pan-y" interaction-prompt="none"></model-viewer>
+                            <h3>Pilatus PC-12</h3>
+                            <span class="categoria">Turbohélice Corporativo</span>
+                            <p>Capacidad para 10 pasajeros. Versatilidad para pistas cortas y remotas.</p>
+                            <a href="contacto.html" class="btn-cotizar">Cotizar Vuelo</a>
+                        </div>
+
+                        <div class="producto-card">
+                            <model-viewer src="modelos3d/bell407.glb" alt="Bell 407 Ranger 3D" auto-rotate rotation-per-second="25deg" camera-controls shadow-intensity="1" touch-action="pan-y" interaction-prompt="none"></model-viewer>
+                            <h3>Bell 407 Ranger</h3>
+                            <span class="categoria">Helicóptero Biturbina</span>
+                            <p>Capacidad para 7 pasajeros. Traslados rápidos de punto a punto y panorámicos.</p>
+                            <a href="contacto.html" class="btn-cotizar">Cotizar Vuelo</a>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </main>
+
+        <aside>
+            <h3>Conoce a los desarrolladores</h3>
+            <p><strong>Daniel Quimuña</strong></p>
+            <p>Estudiante de Computación - UPS</p>
+            <p>
+                <a href="https://ec.linkedin.com/" target="_blank">
+                    <img src="iconos/linkedin.png" alt="LinkedIn"> LinkedIn
+                </a>
+            </p>
+            <p>
+                <a href="https://github.com/" target="_blank">
+                    <img src="iconos/github.png" alt="GitHub"> GitHub
+                </a>
+            </p>
+        </aside>
+    </div>
+
+    <footer>
+        <ul>
+            <li>
+                <a href="https://facebook.com" target="_blank">
+                    <img src="iconos/facebook.png" alt="Facebook"> Facebook
+                </a>
+            </li>
+            <li>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="iconos/instagram.png" alt="Instagram"> Instagram
+                </a>
+            </li>
+            <li>
+                <a href="https://tiktok.com" target="_blank">
+                    <img src="iconos/tiktok.png" alt="TikTok"> TikTok
+                </a>
+            </li>
+        </ul>
+        <p>&copy; 2026 Daniel Quimuña</p>
+        <p>Fecha de actualización: 14 de Octubre de 2026</p>
+    </footer>
+
+</body>
+
+</html>
